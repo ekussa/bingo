@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="bingo.cpp" />
+    <ClCompile Include="table_dealer.cpp">
+      <Filter>dealer</Filter>
+    </ClCompile>
+    <ClCompile Include="sequential_table_dealer.cpp">
+      <Filter>dealer</Filter>
+    </ClCompile>
+    <ClCompile Include="announcer.cpp">
+      <Filter>player\announcer</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="game_builder.cpp" />
+    <ClCompile Include="score.cpp">
+      <Filter>score</Filter>
+    </ClCompile>
+    <ClCompile Include="sequential_announcer_shuffler.cpp">
+      <Filter>player\announcer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="table_dealer.h">
+      <Filter>dealer</Filter>
+    </ClInclude>
+    <ClInclude Include="sequential_table_dealer.h">
+      <Filter>dealer</Filter>
+    </ClInclude>
+    <ClInclude Include="announcer.h">
+      <Filter>player\announcer</Filter>
+    </ClInclude>
+    <ClInclude Include="table.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="table_dealeable.h">
+      <Filter>dealer\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="table_taker.h">
+      <Filter>player\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="playable.h">
+      <Filter>player\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="game_builder.h" />
+    <ClInclude Include="score.h">
+      <Filter>score</Filter>
+    </ClInclude>
+    <ClInclude Include="score_type.h">
+      <Filter>score</Filter>
+    </ClInclude>
+    <ClInclude Include="sequential_announcer_shuffler.h">
+      <Filter>player\announcer</Filter>
+    </ClInclude>
+    <ClInclude Include="announcer_shuffler.h">
+      <Filter>player\announcer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dealer">
+      <UniqueIdentifier>{2576953a-2680-4611-bf99-c795bb6612a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{e83bbbaa-01e5-44bc-960d-25cb0a9f71eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{2a15a408-36b6-4dff-9fed-3679f36df4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player\announcer">
+      <UniqueIdentifier>{3baaa15b-c062-49ad-9694-50c704e2b23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dealer\interface">
+      <UniqueIdentifier>{ffc44a22-3c70-43dd-a384-8de4a8965073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player\interface">
+      <UniqueIdentifier>{ae765265-b01c-4435-bf0f-433b4a8c47b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="score">
+      <UniqueIdentifier>{25fb702e-f53c-4aa3-bb3c-6f8696358fa8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
